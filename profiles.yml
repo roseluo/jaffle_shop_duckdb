@@ -6,7 +6,7 @@ jaffle_shop:
       type: snowflake
       account: OXOCODR-NWB79451
       user: JIANXIANGLUO
-      password: 'eyJraWQiOiIxMDc1MjU4Mzc3MDAwMTQxOCIsImFsZyI6IkVTMjU2In0.eyJwIjoiNjQwOTAzOTQwOjY0MDkwMzk0MCIsImlzcyI6IlNGOjEwNDkiLCJleHAiOjE3ODgzMTM5NTl9.iQUIIUrz6EsMlQ8MQe5rfVPhobrOh7sTUa_H-obezEUewDqtAmFbANcqm_9_K3aN2Mcr6XRJqfHnM2jWFFpb_Q'
+      password: 
       role: ACCOUNTADMIN
       database: UTIL_DB
       schema: PUBLIC
