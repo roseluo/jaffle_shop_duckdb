@@ -6,3 +6,5 @@ jaffle_shop:
       type: duckdb
       path: 'jaffle_shop.duckdb'
       threads: 24
+
+      warehouses: COMPUTE_WH
