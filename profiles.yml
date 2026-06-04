@@ -3,8 +3,13 @@ jaffle_shop:
   target: dev
   outputs:
     dev:
-      type: duckdb
-      path: 'jaffle_shop.duckdb'
-      threads: 24
+      type: snowflake
+      account: OXOCODR-NWB79451
+      user: JIANXIANGLUO
+      password: 'eyJraWQiOiIxMDc1MjU4Mzc3MDAwMTQxOCIsImFsZyI6IkVTMjU2In0.eyJwIjoiNjQwOTAzOTQwOjY0MDkwMzk0MCIsImlzcyI6IlNGOjEwNDkiLCJleHAiOjE3ODgzMTM5NTl9.iQUIIUrz6EsMlQ8MQe5rfVPhobrOh7sTUa_H-obezEUewDqtAmFbANcqm_9_K3aN2Mcr6XRJqfHnM2jWFFpb_Q'
+      role: ACCOUNTADMIN
+      database: UTIL_DB
+      schema: PUBLIC
+      threads: 4
 
       warehouses: COMPUTE_WH
